@@ -1,0 +1,38 @@
+{
+  "name": "OMS",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .js,.jsx",
+    "lint:fix": "npm run lint -s -- --fix"
+  },
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "autoprefixer": "^9.8.6",
+    "dotenv": "^8.2.0",
+    "isomorphic-unfetch": "^3.1.0",
+    "lodash.debounce": "^4.0.8",
+    "next": "^9.5.5",
+    "postcss-preset-env": "^6.7.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-dropzone": "^11.2.3",
+    "react-icons": "^3.11.0",
+    "react-js-pagination": "^3.0.3",
+    "react-paginate": "^6.5.0",
+    "tailwindcss": "^1.9.6",
+    "uuid": "^7.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^2.5.1"
+  }
+}

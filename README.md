@@ -7,7 +7,9 @@ API_URL=http://localhost:5000
 In server .env file you have to paste below code -> 
 
 MONGO_UID = you_have_to_paste_your_mongo_UID
+
 MONGO_PASSWORD = you_have_to_paste_your_mongo_Password
+
 SECRET_KEY = "SECRET VALUE"
 
 
